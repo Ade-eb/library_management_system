@@ -1,0 +1,22 @@
+
+LIBRARY MANAGEMENT PROGRAM:
+
+Introduction:
+
+Simple Library management system where the user can register employees and students and save their information.
+Employee can Add books, delete books, search books by title and issue books to students (registered or not using their unique ID's). 
+Registered Students can Search for books of their choice before borrowing them.
+
+Requirements:
+
+1.  A python IDE shell to run the main file.
+2. MySQL workbench already connected to the python compiler.
+3. A database and tables to be created beforehand (to store details of employees, students, books, issuance) in MySQL.
+	Database name: librarynew
+	Tables: empdetail (EmpID int, name char(100), password char(100))
+	             studetail (Rollno int, name char(100), password char(100))
+	             books (bid int, title char(100), subject char(100), author char(100), status char(10))
+	             issuedetail (bid int, issuedto int)	
+4. Replace the password statement in each file to the password of the MySQL client.
+
+
