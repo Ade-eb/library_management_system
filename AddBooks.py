@@ -35,7 +35,7 @@ def addBooks():
     root.minsize(width=400,height=400)
     root.geometry("60010x50010")
 
-    mypass = "maukhanmau"
+    mypass = "root1234" #enter your mysql connection password
     mydatabase="librarynew"
 
     con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
