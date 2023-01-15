@@ -6,7 +6,7 @@ from DeleteBook import *
 from SearchBook import *
 from IssueBook import *
 
-mypass = "maukhanmau" #Enter your MySQL connection password
+mypass = "root1234" #Enter your MySQL connection password
 mydatabase="librarynew"
 
 
